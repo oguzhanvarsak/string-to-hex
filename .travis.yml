@@ -1,0 +1,9 @@
+os: osx
+osx_image: xcode10
+language: swift
+xcode_project: ./Dönüştürücü.xcodeproj
+xcode_scheme: donusturucu
+xcode_destination: platform=macOS
+script : CODE_SIGNIN_REQUIRED=NO
+after_success:
+  - bash <(curl -s https://codecov.io/bash)

@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		433245F62114B57F00896353 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 433245F52114B57F00896353 /* AppDelegate.m */; };
+		433245FB2114B58000896353 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 433245FA2114B58000896353 /* Assets.xcassets */; };
+		433245FE2114B58000896353 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 433245FC2114B58000896353 /* Main.storyboard */; };
+		433246012114B58000896353 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 433246002114B58000896353 /* main.m */; };
+		4332460C2114B58000896353 /* donusturucuTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4332460B2114B58000896353 /* donusturucuTests.m */; };
+		433246172114B58000896353 /* donusturucuUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 433246162114B58000896353 /* donusturucuUITests.m */; };
+		433246612114B9BD00896353 /* donusturucuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4332465F2114B9BD00896353 /* donusturucuViewController.m */; };
+		433246652114BB5800896353 /* donusturucuModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 433246642114BB5800896353 /* donusturucuModel.m */; };
+		436656BA2114D01000BB399C /* donusturucuWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 436656B82114D01000BB399C /* donusturucuWindowController.m */; };
+		436656BB2114D01000BB399C /* donusturucuWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 436656B92114D01000BB399C /* donusturucuWindowController.xib */; };
+		437C706E2114CD780011E96E /* Dönüştürücü.icns in Resources */ = {isa = PBXBuildFile; fileRef = 437C706D2114CD780011E96E /* Dönüştürücü.icns */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		433246082114B58000896353 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 433245E92114B57F00896353 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 433245F02114B57F00896353;
+			remoteInfo = donusturucu;
+		};
+		433246132114B58000896353 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 433245E92114B57F00896353 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 433245F02114B57F00896353;
+			remoteInfo = donusturucu;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		433245F12114B57F00896353 /* Dönüştürücü.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dönüştürücü.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		433245F42114B57F00896353 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		433245F52114B57F00896353 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		433245FA2114B58000896353 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		433245FD2114B58000896353 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		433245FF2114B58000896353 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		433246002114B58000896353 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		433246022114B58000896353 /* donusturucu.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = donusturucu.entitlements; sourceTree = "<group>"; };
+		433246072114B58000896353 /* donusturucuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = donusturucuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4332460B2114B58000896353 /* donusturucuTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = donusturucuTests.m; sourceTree = "<group>"; };
+		4332460D2114B58000896353 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		433246122114B58000896353 /* donusturucuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = donusturucuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		433246162114B58000896353 /* donusturucuUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = donusturucuUITests.m; sourceTree = "<group>"; };
+		433246182114B58000896353 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4332465E2114B9BD00896353 /* donusturucuViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = donusturucuViewController.h; sourceTree = "<group>"; };
+		4332465F2114B9BD00896353 /* donusturucuViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = donusturucuViewController.m; sourceTree = "<group>"; };
+		433246632114BB5800896353 /* donusturucuModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = donusturucuModel.h; sourceTree = "<group>"; };
+		433246642114BB5800896353 /* donusturucuModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = donusturucuModel.m; sourceTree = "<group>"; };
+		436656B72114D01000BB399C /* donusturucuWindowController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = donusturucuWindowController.h; sourceTree = "<group>"; };
+		436656B82114D01000BB399C /* donusturucuWindowController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = donusturucuWindowController.m; sourceTree = "<group>"; };
+		436656B92114D01000BB399C /* donusturucuWindowController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = donusturucuWindowController.xib; sourceTree = "<group>"; };
+		437C706D2114CD780011E96E /* Dönüştürücü.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = "Dönüştürücü.icns"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		433245EE2114B57F00896353 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		433246042114B58000896353 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4332460F2114B58000896353 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		433245E82114B57F00896353 = {
+			isa = PBXGroup;
+			children = (
+				433245F32114B57F00896353 /* donusturucu */,
+				4332460A2114B58000896353 /* donusturucuTests */,
+				433246152114B58000896353 /* donusturucuUITests */,
+				433245F22114B57F00896353 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		433245F22114B57F00896353 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				433245F12114B57F00896353 /* Dönüştürücü.app */,
+				433246072114B58000896353 /* donusturucuTests.xctest */,
+				433246122114B58000896353 /* donusturucuUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		433245F32114B57F00896353 /* donusturucu */ = {
+			isa = PBXGroup;
+			children = (
+				433245F42114B57F00896353 /* AppDelegate.h */,
+				433245F52114B57F00896353 /* AppDelegate.m */,
+				433246632114BB5800896353 /* donusturucuModel.h */,
+				433246642114BB5800896353 /* donusturucuModel.m */,
+				4332465E2114B9BD00896353 /* donusturucuViewController.h */,
+				4332465F2114B9BD00896353 /* donusturucuViewController.m */,
+				436656B72114D01000BB399C /* donusturucuWindowController.h */,
+				436656B82114D01000BB399C /* donusturucuWindowController.m */,
+				433245FA2114B58000896353 /* Assets.xcassets */,
+				433245FC2114B58000896353 /* Main.storyboard */,
+				436656B92114D01000BB399C /* donusturucuWindowController.xib */,
+				437C706D2114CD780011E96E /* Dönüştürücü.icns */,
+				433245FF2114B58000896353 /* Info.plist */,
+				433246002114B58000896353 /* main.m */,
+				433246022114B58000896353 /* donusturucu.entitlements */,
+			);
+			path = donusturucu;
+			sourceTree = "<group>";
+		};
+		4332460A2114B58000896353 /* donusturucuTests */ = {
+			isa = PBXGroup;
+			children = (
+				4332460B2114B58000896353 /* donusturucuTests.m */,
+				4332460D2114B58000896353 /* Info.plist */,
+			);
+			path = donusturucuTests;
+			sourceTree = "<group>";
+		};
+		433246152114B58000896353 /* donusturucuUITests */ = {
+			isa = PBXGroup;
+			children = (
+				433246162114B58000896353 /* donusturucuUITests.m */,
+				433246182114B58000896353 /* Info.plist */,
+			);
+			path = donusturucuUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		433245F02114B57F00896353 /* donusturucu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4332461B2114B58000896353 /* Build configuration list for PBXNativeTarget "donusturucu" */;
+			buildPhases = (
+				433245ED2114B57F00896353 /* Sources */,
+				433245EE2114B57F00896353 /* Frameworks */,
+				433245EF2114B57F00896353 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = donusturucu;
+			productName = donusturucu;
+			productReference = 433245F12114B57F00896353 /* Dönüştürücü.app */;
+			productType = "com.apple.product-type.application";
+		};
+		433246062114B58000896353 /* donusturucuTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4332461E2114B58000896353 /* Build configuration list for PBXNativeTarget "donusturucuTests" */;
+			buildPhases = (
+				433246032114B58000896353 /* Sources */,
+				433246042114B58000896353 /* Frameworks */,
+				433246052114B58000896353 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				433246092114B58000896353 /* PBXTargetDependency */,
+			);
+			name = donusturucuTests;
+			productName = donusturucuTests;
+			productReference = 433246072114B58000896353 /* donusturucuTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		433246112114B58000896353 /* donusturucuUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 433246212114B58000896353 /* Build configuration list for PBXNativeTarget "donusturucuUITests" */;
+			buildPhases = (
+				4332460E2114B58000896353 /* Sources */,
+				4332460F2114B58000896353 /* Frameworks */,
+				433246102114B58000896353 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				433246142114B58000896353 /* PBXTargetDependency */,
+			);
+			name = donusturucuUITests;
+			productName = donusturucuUITests;
+			productReference = 433246122114B58000896353 /* donusturucuUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		433245E92114B57F00896353 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Oğuzhan Varsak";
+				TargetAttributes = {
+					433245F02114B57F00896353 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					433246062114B58000896353 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 433245F02114B57F00896353;
+					};
+					433246112114B58000896353 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 433245F02114B57F00896353;
+					};
+				};
+			};
+			buildConfigurationList = 433245EC2114B57F00896353 /* Build configuration list for PBXProject "Dönüştürücü" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 433245E82114B57F00896353;
+			productRefGroup = 433245F22114B57F00896353 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				433245F02114B57F00896353 /* donusturucu */,
+				433246062114B58000896353 /* donusturucuTests */,
+				433246112114B58000896353 /* donusturucuUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		433245EF2114B57F00896353 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				433245FB2114B58000896353 /* Assets.xcassets in Resources */,
+				436656BB2114D01000BB399C /* donusturucuWindowController.xib in Resources */,
+				437C706E2114CD780011E96E /* Dönüştürücü.icns in Resources */,
+				433245FE2114B58000896353 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		433246052114B58000896353 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		433246102114B58000896353 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		433245ED2114B57F00896353 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				436656BA2114D01000BB399C /* donusturucuWindowController.m in Sources */,
+				433246012114B58000896353 /* main.m in Sources */,
+				433245F62114B57F00896353 /* AppDelegate.m in Sources */,
+				433246612114B9BD00896353 /* donusturucuViewController.m in Sources */,
+				433246652114BB5800896353 /* donusturucuModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		433246032114B58000896353 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4332460C2114B58000896353 /* donusturucuTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4332460E2114B58000896353 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				433246172114B58000896353 /* donusturucuUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		433246092114B58000896353 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 433245F02114B57F00896353 /* donusturucu */;
+			targetProxy = 433246082114B58000896353 /* PBXContainerItemProxy */;
+		};
+		433246142114B58000896353 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 433245F02114B57F00896353 /* donusturucu */;
+			targetProxy = 433246132114B58000896353 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		433245FC2114B58000896353 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				433245FD2114B58000896353 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		433246192114B58000896353 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		4332461A2114B58000896353 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		4332461C2114B58000896353 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = donusturucu/donusturucu.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 5QBKV6HE8P;
+				INFOPLIST_FILE = donusturucu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = com.oguzhanvarsak.donusturucu;
+				PRODUCT_NAME = "Dönüştürücü";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Debug;
+		};
+		4332461D2114B58000896353 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = donusturucu/donusturucu.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 5QBKV6HE8P;
+				INFOPLIST_FILE = donusturucu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = com.oguzhanvarsak.donusturucu;
+				PRODUCT_NAME = "Dönüştürücü";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Release;
+		};
+		4332461F2114B58000896353 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 5QBKV6HE8P;
+				INFOPLIST_FILE = donusturucuTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.oguzhanvarsak.donusturucuTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/donusturucu.app/Contents/MacOS/donusturucu";
+			};
+			name = Debug;
+		};
+		433246202114B58000896353 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 5QBKV6HE8P;
+				INFOPLIST_FILE = donusturucuTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.oguzhanvarsak.donusturucuTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/donusturucu.app/Contents/MacOS/donusturucu";
+			};
+			name = Release;
+		};
+		433246222114B58000896353 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 5QBKV6HE8P;
+				INFOPLIST_FILE = donusturucuUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.oguzhanvarsak.donusturucuUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = donusturucu;
+			};
+			name = Debug;
+		};
+		433246232114B58000896353 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 5QBKV6HE8P;
+				INFOPLIST_FILE = donusturucuUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.oguzhanvarsak.donusturucuUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = donusturucu;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		433245EC2114B57F00896353 /* Build configuration list for PBXProject "Dönüştürücü" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				433246192114B58000896353 /* Debug */,
+				4332461A2114B58000896353 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4332461B2114B58000896353 /* Build configuration list for PBXNativeTarget "donusturucu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4332461C2114B58000896353 /* Debug */,
+				4332461D2114B58000896353 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4332461E2114B58000896353 /* Build configuration list for PBXNativeTarget "donusturucuTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4332461F2114B58000896353 /* Debug */,
+				433246202114B58000896353 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		433246212114B58000896353 /* Build configuration list for PBXNativeTarget "donusturucuUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				433246222114B58000896353 /* Debug */,
+				433246232114B58000896353 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 433245E92114B57F00896353 /* Project object */;
+}
