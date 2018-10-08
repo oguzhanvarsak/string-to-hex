@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.com/oguzhanvarsak/hex-converter.svg?branch=master)](https://travis-ci.com/oguzhanvarsak/hex-converter)
+[![Build Status](https://travis-ci.com/oguzhanvarsak/string-to-hex.svg?branch=master)](https://travis-ci.com/oguzhanvarsak/string-to-hex)
 
 # String-to-Hex Converter
 
@@ -16,4 +16,4 @@
 
 ---
 
-This project finished, click [Releases](https://github.com/oguzhanvarsak/hex-converter/releases) for download final.
+This project finished, click [Releases](https://github.com/oguzhanvarsak/string-to-hex/releases) for download final.
